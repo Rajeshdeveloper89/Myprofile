@@ -1,0 +1,77 @@
+/* src/Resume.css */
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .resume-header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .resume-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .resume-header h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #555;
+  }
+  
+  .resume-header p {
+    margin: 5px 0;
+  }
+  
+  .resume-profile,
+  .resume-experience,
+  .resume-education,
+  .resume-skills {
+    margin-top: 20px;
+  }
+  
+  .resume-profile p,
+  .resume-experience ul,
+  .resume-skills ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .resume-experience .job,
+  .resume-education .school {
+    margin-bottom: 20px;
+  }
+  
+  .resume-experience h3,
+  .resume-education h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .resume-experience h4,
+  .resume-education h4 {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .resume-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .resume-skills li {
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
